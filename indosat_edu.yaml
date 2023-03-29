@@ -1,0 +1,23 @@
+proxies:
+  - name: indosat
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: difaagh
+    skip-cert-verify: true
+    sni: ovh-sg02.iptr.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: indosat 2
+    server: 104.16.53.111
+    port: 443
+    type: trojan
+    password: difaagh
+    skip-cert-verify: true
+    sni: ovh-sg02.iptr.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
